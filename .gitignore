@@ -1,0 +1,33 @@
+# Google OAuth credentials & tokens (SENSITIVE)
+credentials.json
+token.pickle
+
+# Environment variables (SENSITIVE)
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
