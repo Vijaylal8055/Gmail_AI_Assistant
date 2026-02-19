@@ -1,0 +1,20 @@
+# Core web app framework
+streamlit>=1.39.0
+
+# Gmail API and Google OAuth
+google-api-python-client>=2.111.0
+google-auth>=2.35.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# Google Gemini API (current official package)
+google-generativeai>=0.8.0
+
+# Environment variables management
+python-dotenv>=1.0.0
+
+# For delay after sending email (optional but used in compose)
+# time is built-in, no need to list it
+
+# Optional but recommended for better error display / debugging
+rich>=13.0.0
